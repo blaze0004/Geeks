@@ -66,10 +66,12 @@ class LinkedList:
         if node.next is None:
             self.head = node
             node.next = prev
-            return
-        
+            return 
+            
+        next = node.next
+        node.next = prev
 
-        self.tailRecReverse(node.next, )
+        self.tailRecReverse(next, node)
 
 
 if __name__ == "__main__":
