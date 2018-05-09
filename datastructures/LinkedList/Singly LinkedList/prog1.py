@@ -37,4 +37,5 @@ if __name__ == '__main__':
     second.next = third;
 
     llist.printList()
+    llist.printList()
 
