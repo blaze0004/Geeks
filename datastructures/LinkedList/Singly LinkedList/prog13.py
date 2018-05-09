@@ -36,16 +36,59 @@ class LinkedList:
         self.head = newnode
 
     def iterativeReverse(self):
-        prev = next = None
+        
         current = self.head
+        prev = None
+        next = None
+
         while current:
+
             next = current.next
             current.next = prev
-            prev = current
-            current = next
-    
-    def recReverse(self):
-        pass
+            prev, current = current, next 
 
-    def tailRecReverse(self):
-        pass
+        self.head = prev
+        
+    def recReverse(self, node):
+    
+        if node.next is None:
+            self.head = node
+            return
+        
+        self.recReverse(node.next)
+
+        prev = node.next
+        prev.next = node
+        node.next = None
+
+    def tailRecReverse(self, node, prev):
+        
+        if node.next is None:
+            self.head = node
+            node.next = prev
+            return
+        
+
+        self.tailRecReverse(node.next, )
+
+
+if __name__ == "__main__":
+    
+    llist = LinkedList()
+
+    for i in range(10, 0, -1):
+        llist.push(i)
+
+    llist.printList()
+
+    llist.iterativeReverse()
+
+    llist.printList()
+
+    llist.recReverse(llist.head)
+
+    llist.printList()
+
+    llist.tailRecReverse(llist.head, None)
+
+    llist.printList()
