@@ -1,4 +1,4 @@
-# Deleting a linkedlist 
+# Count a given number occurence in a linkedlist
 
 
 # Node Class
@@ -33,26 +33,25 @@ class LinkedList:
         newnode.next = self.head
         self.head = newnode
 
-    def deleteLinkedList(self):
-       # initialize the current node
-        current = self.head
-        while current:
-            prev = current.next # move next node
-             
-            # delete the current node
-            del current.data
-             
-            # set current equals prev node
-            current = prev 
+    def countGivenNumber(self, key):
+        count = 0
+        temp = self.head
+        while temp:
+            if temp.data is key:
+                count += 1
+
+            temp = temp.next
+        return count
 
 if __name__ == "__main__":
     llist = LinkedList()
 
-    for i in range(19,3, -1):
+    for i in range(10,2,-1):
         llist.push(i)
+        if i % 2 == 0:
+            llist.push(i)
+            llist.push(i)
 
     llist.printList()
 
-    llist.deleteLinkedList()
-
-    llist.printList()
+    print(llist.countGivenNumber(4))

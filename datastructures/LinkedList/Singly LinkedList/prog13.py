@@ -1,4 +1,6 @@
-# Deleting a linkedlist 
+# Reverse a Linked List 
+# 3 Method
+# 1. Iterative , 2. Recursive, 3. Tail Recursion
 
 
 # Node Class
@@ -33,26 +35,17 @@ class LinkedList:
         newnode.next = self.head
         self.head = newnode
 
-    def deleteLinkedList(self):
-       # initialize the current node
+    def iterativeReverse(self):
+        prev = next = None
         current = self.head
         while current:
-            prev = current.next # move next node
-             
-            # delete the current node
-            del current.data
-             
-            # set current equals prev node
-            current = prev 
+            next = current.next
+            current.next = prev
+            prev = current
+            current = next
+    
+    def recReverse(self):
+        pass
 
-if __name__ == "__main__":
-    llist = LinkedList()
-
-    for i in range(19,3, -1):
-        llist.push(i)
-
-    llist.printList()
-
-    llist.deleteLinkedList()
-
-    llist.printList()
+    def tailRecReverse(self):
+        pass
