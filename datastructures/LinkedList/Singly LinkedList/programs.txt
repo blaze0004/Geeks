@@ -1,0 +1,22 @@
+Completed
+
+1 : Intro to Singly Linkedlist
+2 : Insertion
+3 : Deletion a given data
+4 : Deletion from a given position
+5 : Length of Linkedlist
+6 : Find Element in linkedlist
+7 : Swap Nodes without swapping data
+8 : To get Nth node 
+9 : Find Middle of linkedlist
+10 : nth node from end
+11 : deleting complete linkedlist
+12 : Count number of occurences of a given number 
+13 : Reverse a Linkedlist
+14 : Finding loop in linkedlist
+15 : Merging two sorted linkedlist
+
+Not Completed
+
+16 : isPalindrome
+17 : finding intersection point of two Linkedlist
