@@ -49,11 +49,12 @@ class CircularLinkedList:
         slow = self.head
         fast = self.head
 
-        while fast.next != self.head:
+        while fast.next != self.head and fast.next.next != self.head:
             slow = slow.next
             fast = fast.next.next
 
-        fast = fast.next
+        
+        
 
         
 cllist = CircularLinkedList()
