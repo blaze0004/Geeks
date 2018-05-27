@@ -54,13 +54,29 @@ class Editor {
         void addim();
         void copyandreplacebuffer();
         void copybufferatcurrentlineend();
-        void dy();      
-
+        void dy();  
+        string getbufferdata();    
+        bool isEmptyBuffer();
 };
 
 int Editor::getCurrentIndex() {
-
+    /* get the current index */
     return this.currentindex;
 }
+
+string Editor::getbufferdata() {
+    // to get the data of buffer
+    return this.buffer;
+}
+
+bool Editor::isEmptyBuffer() {
+    // return true if empty buffer
+    return buffer.empty();
+}
+
+void Editor::dd() {
+    //
+}
+
 
 
