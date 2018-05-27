@@ -41,13 +41,26 @@ Print the final text T after applying the Q commands.
 using namespace std;
 class Editor {
 
-    private:
-        
+ 
         int n,q;
-        string t, newt;
+        string t, newt, buffer;
         int currentIndex;
-        
     
+    public:
         
+        int getCurrentIndex();
+        void dd();
+        void addatm();
+        void addim();
+        void copyandreplacebuffer();
+        void copybufferatcurrentlineend();
+        void dy();      
 
+};
+
+int Editor::getCurrentIndex() {
+
+    return this.currentindex;
 }
+
+
