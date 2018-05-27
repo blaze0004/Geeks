@@ -36,14 +36,14 @@ Print the final text T after applying the Q commands.
 */
 
 
-#include<iostream.h>
-#include<string.h>
+#include<bits/stdc++.h>
 using namespace std;
 class Editor {
 
  
         int n,q;
-        string t, newt, buffer;
+        vector <string> t;
+        string newt, buffer;
         int currentIndex;
     
     public:
@@ -75,7 +75,14 @@ bool Editor::isEmptyBuffer() {
 }
 
 void Editor::dd() {
-    //
+    /* dd  -- delete the current line and move the cursor
+     to the end of next line. If there is no next line, 
+     move the cursor to end of the previous line.
+     If all the lines are deleted, move the cursor to the
+     start of the first line.
+    */
+
+   
 }
 
 
