@@ -162,8 +162,8 @@ int main() {
         scanf("%s", &qs);
         if(qs == "dd") {
             deleteNode();
-        } else if(qs == ":m") {
-            setCurrentToLineM();
+        } else if(qs[0] == ":") {
+            setCurrentToLineM(qs[m]);
         }
     }
 }
