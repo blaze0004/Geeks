@@ -1,6 +1,11 @@
 {
     "python.pythonPath": "C:\\Users\\RAJA\\AppData\\Local\\Programs\\Python\\Python36\\python3.exe",
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "array": "c",
+        "deque": "c",
+        "forward_list": "c",
+        "list": "c",
+        "vector": "c"
     }
 }
