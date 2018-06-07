@@ -6,6 +6,7 @@
         "deque": "c",
         "forward_list": "c",
         "list": "c",
-        "vector": "c"
+        "vector": "c",
+        "*.tcc": "c"
     }
 }
