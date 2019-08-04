@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py" line="31" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a12db1-4827-48bc-9ab0-ecf182617fad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Geeks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/breadth-first-search-or-bfs-for-a-graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/depth-first-search-or-dfs-for-a-graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/minimum-initial-vertices-traverse-whole-matrix-given-conditions.py">
+        <entry file="file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="831">
+              <caret line="67" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -46,6 +43,7 @@
         <option value="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/breadth-first-search-or-bfs-for-a-graph.py" />
         <option value="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/depth-first-search-or-dfs-for-a-graph.py" />
         <option value="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/minimum-initial-vertices-traverse-whole-matrix-given-conditions.py" />
+        <option value="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py" />
       </list>
     </option>
   </component>
@@ -58,38 +56,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Geeks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geeks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geeks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geeks" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geeks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geeks" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geeks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geeks" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-              <item name="Intro to dfs and bfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -116,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.minimum-initial-vertices-traverse-whole-matrix-given-conditions">
+  <component name="RunManager" selected="Python.count-nodes-within-k-distance-from-all-nodes-in-a-set">
     <configuration name="adjacencyList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Geeks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,6 +120,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/breadth-first-search-or-bfs-for-a-graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="count-nodes-within-k-distance-from-all-nodes-in-a-set" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Geeks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,6 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.count-nodes-within-k-distance-from-all-nodes-in-a-set" />
         <item itemvalue="Python.minimum-initial-vertices-traverse-whole-matrix-given-conditions" />
         <item itemvalue="Python.depth-first-search-or-dfs-for-a-graph" />
         <item itemvalue="Python.breadth-first-search-or-bfs-for-a-graph" />
@@ -226,11 +216,12 @@
       <updated>1564578752858</updated>
       <workItem from="1564578769414" duration="3086000" />
       <workItem from="1564681634119" duration="2518000" />
+      <workItem from="1564857844575" duration="1405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5604000" />
+    <option name="totallyTimeSpent" value="7009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -241,7 +232,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.42389524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37315875" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.08510638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -341,12 +332,53 @@
           <line>31</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Geeks$depth_first_search_or_dfs_for_a_graph.coverage" NAME="depth-first-search-or-dfs-for-a-graph Coverage Results" MODIFIED="1564681855811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs" />
     <SUITE FILE_PATH="coverage/Geeks$breadth_first_search_or_bfs_for_a_graph.coverage" NAME="breadth-first-search-or-bfs-for-a-graph Coverage Results" MODIFIED="1564588194644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs" />
+    <SUITE FILE_PATH="coverage/Geeks$count_nodes_within_k_distance_from_all_nodes_in_a_set.coverage" NAME="count-nodes-within-k-distance-from-all-nodes-in-a-set Coverage Results" MODIFIED="1564859250510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs" />
     <SUITE FILE_PATH="coverage/Geeks$minimum_initial_vertices_traverse_whole_matrix_given_conditions.coverage" NAME="minimum-initial-vertices-traverse-whole-matrix-given-conditions Coverage Results" MODIFIED="1564684148702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs" />
     <SUITE FILE_PATH="coverage/Geeks$adjacencyList.coverage" NAME="adjacencyList Coverage Results" MODIFIED="1564587354019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datastructures/Graph" />
   </component>
@@ -374,8 +406,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/minimum-initial-vertices-traverse-whole-matrix-given-conditions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="663">
           <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructures/Graph/Intro to dfs and bfs/count-nodes-within-k-distance-from-all-nodes-in-a-set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="67" selection-end-line="72" />
         </state>
       </provider>
     </entry>
